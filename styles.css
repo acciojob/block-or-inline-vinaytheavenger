@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+[data-ns-test^="block"] {
+  display: block;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+[data-ns-test^="inline"] {
+  display: inline;
+  background-color: lightgreen;
+  padding: 5px;
+  margin: 2px;
+}
